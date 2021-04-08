@@ -15,8 +15,8 @@ function setup(){
 
    engine = Engine.create();
    world = engine.world;
-
-
+   
+    
    if(frameCount%10 ===0){
     for(var i =0; i<maxDrops; i++){
      drops.push(new Drop(random(0,600), random(0,600)));
